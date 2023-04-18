@@ -1,0 +1,25 @@
+﻿@model book
+@{
+    ViewData["Title"] = "details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <main role="main" class="pb-3">
+<h1 class="text-center" >@Model.title</h1>
+
+<div class="text-center">
+    <img src="@Model.img" width="400px" height="300px" />
+    @*    <a href="@Model" > download </a>
+*@
+</div>
+<p style="font-size:18px;">
+    @Model.desc
+</p>
+  <div class=row>
+         <div class=col-4> catalog :@Model.cat.cat_name</div>
+         <div class=col-4></div>
+         <div class=col-4> date: @Model.date  </div>
+
+    </div>
+    </main>
+</div>

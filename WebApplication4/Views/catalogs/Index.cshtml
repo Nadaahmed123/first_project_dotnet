@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebApplication4.Models.catalog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="text-center">
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">add book</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.cat_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cat_desc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var b in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => b.cat_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => b.cat_desc)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@b.cat_id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@b.cat_id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@b.cat_id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

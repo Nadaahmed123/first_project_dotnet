@@ -1,0 +1,32 @@
+﻿@model WebApplication4.Models.catalog
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div padding="20px" margin="10px" style="background-color:aliceblue;">
+    <h4>catalog</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.cat_name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.cat_name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.cat_desc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.cat_desc)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.cat_id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+

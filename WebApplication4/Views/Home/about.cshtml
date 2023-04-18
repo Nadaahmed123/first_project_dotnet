@@ -1,0 +1,1278 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "About";
+}
+@*<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>*@
+
+
+
+
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+            <div class="booksmedia-detail-main">
+                <div class="container">
+                    <div class="row">
+                        <!-- Start: Search Section -->
+                        <section class="search-filters">
+                            <div class="container">
+                                <div class="filter-box">
+                                    <h3>What are you looking for at the library?</h3>
+                                    <form action="http://libraria.demo.presstigers.com/index.html" method="get">
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="keywords">Search by Keyword</label>
+                                                <input class="form-control" placeholder="Search by Keyword" id="keywords" name="keywords" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="form-group">
+                                                <select name="catalog" id="catalog" class="form-control">
+                                                    <option>Search the Catalog</option>
+                                                    <option>Catalog 01</option>
+                                                    <option>Catalog 02</option>
+                                                    <option>Catalog 03</option>
+                                                    <option>Catalog 04</option>
+                                                    <option>Catalog 05</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                            <div class="form-group">
+                                                <select name="category" id="category" class="form-control">
+                                                    <option>All Categories</option>
+                                                    <option>Category 01</option>
+                                                    <option>Category 02</option>
+                                                    <option>Category 03</option>
+                                                    <option>Category 04</option>
+                                                    <option>Category 05</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-sm-6">
+                                            <div class="form-group">
+                                                <input class="form-control" type="submit" value="Search">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- End: Search Section -->
+                    </div>
+                    <div class="booksmedia-detail-box">
+                        <div class="detailed-box">
+                            <div class="col-xs-12 col-sm-5 col-md-3">
+                                <div class="post-thumbnail">
+                                    <div class="book-list-icon blue-icon"></div>
+                                    <img src="~/templete/images/books-media/detail-page/detail-page-image.jpg" alt="Book Image">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-md-6">
+                                <div class="post-center-content">
+                                    <h2>The Great Gatsby</h2>
+                                    <p><strong>Author:</strong> F. Scott Fitzgerald</p>
+                                    <p><strong>ISBN:</strong> 9781581573268, 9780062419385</p>
+                                    <p><strong>Rating:</strong> </p>
+                                    <p><strong>Edition:</strong> First edition</p>
+                                    <p><strong>Publisher:</strong> New York : Shaye Areheart Books, c2008</p>
+                                    <p><strong>Length:</strong> 518 pages.</p>
+                                    <p><strong>Format:</strong> DVD</p>
+                                    <p><strong>Language Note:</strong> Icelandic dialogue; English subtitles.</p>
+                                    <p><strong>Genre :</strong> Feature films, Fiction films, Drama</p>
+                                    <p><strong>Topics:</strong> Friendship, Bullies, Pranks, School</p>
+                                    <div class="actions">
+                                        <ul>
+                                            <li>
+                                                <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="" data-original-title="Add To Cart">
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="" data-original-title="Like">
+                                                    <i class="fa fa-heart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="" data-original-title="Mail">
+                                                    <i class="fa fa-envelope"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="" data-original-title="Search">
+                                                    <i class="fa fa-search"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="" data-original-title="Print">
+                                                    <i class="fa fa-print"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="" data-original-title="Print">
+                                                    <i class="fa fa-share-alt"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3 ">
+                                <div class="post-right-content">
+                                    <h4>Available now</h4>
+                                    <p><strong>Total Copies:</strong> 01</p>
+                                    <p><strong>Available:</strong> 019780062419385</p>
+                                    <p><strong>Holds:</strong>  01</p>
+                                    <p><strong>On the shelves now at:</strong> Lawrence Public Library</p>
+                                    <p><strong>Call #:</strong> 747 STRUTT C</p>
+                                    <a href="#." class="available-location">Availability by Location <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                    <a href="#." class="btn btn-dark-gray">Place a Hold</a>
+                                    <a href="#." class="btn btn-dark-gray">View sample</a>
+                                    <a href="#." class="btn btn-dark-gray">Find Similar Titles</a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p><strong>Summary:</strong> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+
+                        <div class="table-tabs" id="responsiveTabs">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><b class="arrow-up"></b><a data-toggle="tab" href="#sectionA">Copies: 05</a></li>
+                                <li><b class="arrow-up"></b><a data-toggle="tab" href="#sectionB">Reviews (12)</a></li>
+                                <li><b class="arrow-up"></b><a data-toggle="tab" href="#sectionC">Table of Contents</a></li>
+                                <li><b class="arrow-up"></b><a data-toggle="tab" href="#sectionD">Novelist Recommendations</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="sectionA" class="tab-pane fade in active">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>Library Name</th>
+                                                <th>Shelf Number</th>
+                                                <th>Material Type</th>
+                                                <th>Status </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Oak Park Public Library Main Branch</td>
+                                                <td>B PURMORT</td>
+                                                <td>Book</td>
+                                                <td>In Processing</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bedford Park Public Library District</td>
+                                                <td>616.99 PUR</td>
+                                                <td>Book</td>
+                                                <td>Due 8/24/16</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Blue Island Public Library</td>
+                                                <td>BIO PUR</td>
+                                                <td>eBook</td>
+                                                <td>Due 8/24/16</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Bridgeview Public Library</td>
+                                                <td>B PUR</td>
+                                                <td>DVD</td>
+                                                <td>In Processing</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Eisenhower Public Library District</td>
+                                                <td>616.994 PUR</td>
+                                                <td>Magazine</td>
+                                                <td>Checked In</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Forest Park Public Library</td>
+                                                <td>BIO PURMORT</td>
+                                                <td>Magazine</td>
+                                                <td>Checked In</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hinsdale Public Library</td>
+                                                <td>B PUR</td>
+                                                <td>Audio</td>
+                                                <td>Checked In</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Oak Park Public Library Maze Branch</td>
+                                                <td>616.99 PUR</td>
+                                                <td>Audio</td>
+                                                <td>Due 9/10/16</td>
+                                            </tr>
+                                            <tr>
+                                                <td>River Grove Public Library District</td>
+                                                <td>616.994 PURMORT</td>
+                                                <td>Book</td>
+                                                <td>Due 9/10/16</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="sectionB" class="tab-pane fade in">
+                                    <h5>Lorem Ipsum Dolor</h5>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                                </div>
+                                <div id="sectionC" class="tab-pane fade in">
+                                    <h5>Lorem Ipsum Dolor</h5>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                                </div>
+                                <div id="sectionD" class="tab-pane fade in">
+                                    <h5>Lorem Ipsum Dolor</h5>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                                </div>
+                                <div id="sectionE" class="tab-pane fade in">
+                                    <h5>Lorem Ipsum Dolor</h5>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                                </div>
+                                <div id="sectionF" class="tab-pane fade in">
+                                    <h5>Lorem Ipsum Dolor</h5>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<div class="booksmedia-fullwidth">
+            <div class="container">
+                <h2 class="section-title text-center">Popular Items</h2>
+                    <span class="underline center"></span>
+                    <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <ul class="popular-items-detail-v2">
+                            <li>
+                                <div class="book-list-icon blue-icon"></div>
+                                <figure>
+                    <img src="~/templete/images/books-media/layout-3/books-media-layout3-01.jpg" alt="Book">
+                                    <figcaption>
+                                        <header>
+                                            <h4><a href="#.">The Great Gatsby</a></h4>
+                                            <p><strong>Author:</strong>  F. Scott Fitzgerald</p>
+                                            <p><strong>ISBN:</strong>  9781581573268</p>
+                                        </header>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                        <div class="actions">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Like">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Mail"><i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Search">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-print"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </figcaption>
+                                </figure>                                                
+                            </li>
+                            <li>
+                                <div class="book-list-icon yellow-icon"></div>
+                                <figure>
+                    <img src="~/templete/images/books-media/layout-3/books-media-layout3-02.jpg" alt="Book">
+                                    <figcaption>
+                                        <header>
+                                            <h4><a href="#.">The Great Gatsby</a></h4>
+                                            <p><strong>Author:</strong>  F. Scott Fitzgerald</p>
+                                            <p><strong>ISBN:</strong>  9781581573268</p>
+                                        </header>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                        <div class="actions">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Like">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Mail"><i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Search">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-print"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </figcaption>
+                                </figure>                                                
+                            </li>
+                            <li>
+                                <div class="book-list-icon green-icon"></div>
+                                <figure>
+                                    <img src="~/templete/images/books-media/layout-3/books-media-layout3-03.jpg" alt="Book">
+                                    <figcaption>
+                                        <header>
+                                            <h4><a href="#.">The Great Gatsby</a></h4>
+                                            <p><strong>Author:</strong>  F. Scott Fitzgerald</p>
+                                            <p><strong>ISBN:</strong>  9781581573268</p>
+                                        </header>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                        <div class="actions">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Like">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Mail"><i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Search">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-print"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </figcaption>
+                                </figure>                                                
+                            </li>
+                            <li>
+                                <div class="book-list-icon blue-icon"></div>
+                                <figure>
+                    <img src="~/templete/images/books-media/layout-3/books-media-layout3-01.jpg" alt="Book">
+                                    <figcaption>
+                                        <header>
+                                            <h4><a href="#.">The Great Gatsby</a></h4>
+                                            <p><strong>Author:</strong>  F. Scott Fitzgerald</p>
+                                            <p><strong>ISBN:</strong>  9781581573268</p>
+                                        </header>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                        <div class="actions">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Like">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Mail"><i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Search">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-print"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </figcaption>
+                                </figure>                                                
+                            </li>
+                            <li>
+                                <div class="book-list-icon yellow-icon"></div>
+                                <figure>
+                    <img src="~/templete/images/books-media/layout-3/books-media-layout3-02.jpg" alt="Book">
+                                    <figcaption>
+                                        <header>
+                                            <h4><a href="#.">The Great Gatsby</a></h4>
+                                            <p><strong>Author:</strong>  F. Scott Fitzgerald</p>
+                                            <p><strong>ISBN:</strong>  9781581573268</p>
+                                        </header>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                        <div class="actions">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Like">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Mail"><i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Search">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-print"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </figcaption>
+                                </figure>                                                
+                            </li>
+                            <li>
+                                <div class="book-list-icon green-icon"></div>
+                                <figure>
+                    <img src="~/templete/images/books-media/layout-3/books-media-layout3-03.jpg" alt="Book">
+                                    <figcaption>
+                                        <header>
+                                            <h4><a href="#.">The Great Gatsby</a></h4>
+                                            <p><strong>Author:</strong>  F. Scott Fitzgerald</p>
+                                            <p><strong>ISBN:</strong>  9781581573268</p>
+                                        </header>
+                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                        <div class="actions">
+                                            <ul>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Add To Cart">
+                                                        <i class="fa fa-shopping-cart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Like">
+                                                        <i class="fa fa-heart"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Mail"><i class="fa fa-envelope"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Search">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-print"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" target="_blank" data-toggle="blog-tags" data-placement="top" title="Print">
+                                                        <i class="fa fa-share-alt"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </figcaption>
+                                </figure>                                                
+                            </li>
+                        </ul>
+            </div>
+        </div>
+        <section class="social-network section-padding">
+            <div class="container">
+                <div class="center-content">
+                    <h2 class="section-title">Follow Us</h2>
+                    <span class="underline center"></span>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <ul>
+                    <li>
+                        <a class="facebook" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-facebook-f"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="twitter" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="google" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-google-plus"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="rss" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-rss"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="linkedin" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-linkedin"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="youtube" href="#" target="_blank">
+                            <span>
+                                <i class="fa fa-youtube"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+                    <div class="services-main">
+                        <div class="services-pg">                            
+                            <section class="services-offering">
+                                <div class="container">
+                                    <div class="center-content">
+                                        <h2 class="section-title">SERVICE WE ARE OFFERING</h2>
+                                        <span class="underline center"></span>
+                                        <p class="lead">The standard chunk of Lorem Ipsum used since</p>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="contact-location">
+                                        <div class="flipcard">
+                                            <div class="front">
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-credit-card" aria-hidden="true"></i><span>Get a Card</span></h3>
+                                                </div>
+                                                <div class="bottom-info">
+                                                    <span class="top-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="bottom-info orange-bg">
+                                                    <span class="bottom-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="top-info dark-bg">
+                                                    <h3><i class="fa fa-credit-card" aria-hidden="true"></i><span>Get a Card</span></h3>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="flipcard">
+                                            <div class="front">
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-desktop" aria-hidden="true"></i><span>Computers & WiFi</span></h3>
+                                                </div>
+                                                <div class="bottom-info">
+                                                    <span class="top-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="bottom-info orange-bg">
+                                                    <span class="bottom-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="top-info dark-bg">
+                                                    <h3><i class="fa fa-desktop" aria-hidden="true"></i><span>Computers & WiFi</span></h3>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="flipcard">
+                                            <div class="front">
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-microphone" aria-hidden="true"></i><span>Meeting Rooms</span></h3>
+                                                </div>
+                                                <div class="bottom-info">
+                                                    <span class="top-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="bottom-info orange-bg">
+                                                    <span class="bottom-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="top-info dark-bg">
+                                                    <h3><i class="fa fa-microphone" aria-hidden="true"></i><span>Meeting Rooms</span></h3>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="flipcard">
+                                            <div class="front">
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-truck" aria-hidden="true"></i><span>Home Delivery</span></h3>
+                                                </div>
+                                                <div class="bottom-info">
+                                                    <span class="top-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="bottom-info">
+                                                    <span class="bottom-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-truck" aria-hidden="true"></i><span>Home Delivery</span></h3>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="flipcard">
+                                            <div class="front">
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-book" aria-hidden="true"></i><span>InterLibrary Loan</span></h3>
+                                                </div>
+                                                <div class="bottom-info">
+                                                    <span class="top-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="bottom-info">
+                                                    <span class="bottom-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-book" aria-hidden="true"></i><span>InterLibrary Loan</span></h3>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="flipcard">
+                                            <div class="front">
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-briefcase" aria-hidden="true"></i><span>Job Help</span></h3>
+                                                </div>
+                                                <div class="bottom-info">
+                                                    <span class="top-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="bottom-info">
+                                                    <span class="bottom-arrow"></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor turpis.</p>
+                                                    <a href="#">View Selection <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                                </div>
+                                                <div class="top-info">
+                                                    <h3><i class="fa fa-briefcase" aria-hidden="true"></i><span>Job Help</span></h3>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="who-we-are">
+                                <div class="company-info">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-8 border">
+                                                <div class="row">
+                                                    <div class="col-sm-11">
+                                                        <div class="company-detail">
+                                                            <h3 class="section-title">Who we are</h3>
+                                                            <span class="underline left"></span>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec mauris a neque tincidunt iaculis. Sed tristique luctus sapien. Vestibulum arcu magna, ullamcorper quis porta ac, venenatis non ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras commodo sollicitudin felis vel porttitor. Quisque vitae egestas sapien. Ut et neque posuere, interdum purus nec, lobortis eros. Fusce blandit, libero consectetur hendrerit tristique, erat sapien convallis nibh, quis eleifend arcu nisi vitae urna.</p>
+                                                            <p>Praesent ultrices urna in arcu facilisis tempus. Sed facilisis, nisl et tincidunt pharetra, nisi mauris malesuada quam, non imperdiet odio lacus quis elit. Vestibulum arcu magna, ullamcorper quis porta ac, venenatis non ante. Fusce sed justo at orci fermentum varius. Nulla vestibulum luctus ex porta pharetra. Vivamus at varius risus. Etiam eget ligula pharetra, varius mi id, ullamcorper nibh.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="company-image"></div>
+                                </div>
+                            </section>
+                            <div class="fun-stuff">
+                                <div class="container">
+                                    <div class="facts-counter">
+                                        <ul>
+                                            <li class="col-sm-3">
+                                                <div class="fact-item icon-ebooks">
+                                                    <div class="fact-icon">
+                                                <img src="~/templete/images/icon-ebooks.png" alt="" />
+                                                    </div>
+                                                    <span>eBooks<strong class="fact-counter">45780</strong></span>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-3">
+                                                <div class="fact-item icon-eaudio">
+                                                    <div class="fact-icon">
+                                                <img src="~/templete/images/icon-eaudio.png" alt="" />
+                                                    </div>
+                                                    <span>eAudio<strong class="fact-counter">32450</strong></span>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-3">
+                                                <div class="fact-item icon-magazine">
+                                                    <div class="fact-icon">
+                                                <img src="~/templete/images/icon-magazine.png" alt="" />
+                                                    </div>
+                                                    <span>Magazine<strong class="fact-counter">14450</strong></span>
+                                                </div>
+                                            </li>
+                                            <li class="col-sm-3">
+                                                <div class="fact-item icon-videos">
+                                                    <div class="fact-icon">
+                                                        <img src="images/icon-videos.png" alt="" />
+                                                    </div>
+                                                    <span>Videos<strong class="fact-counter">32450</strong></span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="company-info-box">
+                                <div class="company-info">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-10 aligncenter">
+                                            <div class="col-md-6 border-dark-left">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="company-detail bg-dark margin-left">
+                                                            <h3 class="section-title">Study Rooms</h3>
+                                                            <span class="underline left"></span>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec mauris a neque tincidunt iaculis. Sed tristique luctus sapien. Vestibulum arcu magna, ullamcorper quis porta ac, venenatis non ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras commodo sollicitudin felis vel porttitor. Quisque vitae egestas sapien.</p>
+                                                            <a href="#." class="btn btn-primary">Get a card</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 border-dark">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="company-detail bg-light margin-right">
+                                                            <h3 class="section-title">Books and more</h3>
+                                                            <span class="underline left"></span>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec mauris a neque tincidunt iaculis. Sed tristique luctus sapien. Vestibulum arcu magna, ullamcorper quis porta ac, venenatis non ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras commodo sollicitudin felis vel porttitor. Quisque vitae egestas sapien.</p>
+                                                            <a href="contact.html" class="btn btn-dark-gray">Make a request</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- Start: Our Partners Section -->
+                            <section class="community-testimonial">
+                                <div class="container">
+                                    <div class="text-center">
+                                        <h2 class="section-title">Words From our Community</h2>
+                                        <span class="underline center"></span>
+                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <div class="owl-carousel">
+                                        <div class="single-testimonial-box">
+                                            <div class="top-portion">
+                                        <img src="~/templete/images/testimonial-image-01.jpg" alt="Testimonial Image" />
+                                                <div class="user-comment">
+                                                    <div class="arrow-left"></div>
+                                                    <blockquote cite="#">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna magna, rhoncus eget commodo et, dignissim non nulla. Sed sit amet vestibulum ex. Donec dolor velit
+                                                    </blockquote>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="bottom-portion">
+                                                    <a href="#" class="author">
+                                                        Adrey Pachai <small> (Student )</small>
+                                                    </a>
+                                                <div class="social-share-links">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="single-testimonial-box">
+                                            <div class="top-portion">
+                                        <img src="~/templete/images/testimonial-image-02.jpg" alt="Testimonial Image" />
+                                                <div class="user-comment">
+                                                    <div class="arrow-left"></div>
+                                                    <blockquote cite="#">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna magna, rhoncus eget commodo et, dignissim non nulla. Sed sit amet vestibulum ex. Donec dolor velit
+                                                    </blockquote>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="bottom-portion">
+                                                    <a href="#" class="author">
+                                                        Maria B <small> (Student )</small>
+                                                    </a>
+                                                <div class="social-share-links">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                        <div class="single-testimonial-box">
+                                            <div class="top-portion">
+                                        <img src="~/templete/images/testimonial-image-01.jpg" alt="Testimonial Image" />
+                                                <div class="user-comment">
+                                                    <div class="arrow-left"></div>
+                                                    <blockquote cite="#">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna magna, rhoncus eget commodo et, dignissim non nulla. Sed sit amet vestibulum ex. Donec dolor velit
+                                                    </blockquote>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="bottom-portion">
+                                                    <a href="#" class="author">
+                                                        Adrey Pachai <small> (Student )</small>
+                                                    </a>
+                                                <div class="social-share-links">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- End: Our Partners Section -->
+                            <section class="category-filter new-release">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 text-center">
+                                            <h2 class="section-title">Check Out The New Releases</h2>
+                                            <span class="underline center"></span>
+                                            <p class="lead">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="category-filter">
+                                    <ul class="category-list">
+                                        <li class="category-item">
+                                            <figure>
+                                                <img src="images/category-filter/home-v1/category-filter-img-01.jpg" alt="New Releaase" />
+                                                <figcaption class="bg-orange">
+                                                    <div class="info-block">
+                                                        <h4>The Great Gatsby</h4>
+                                                        <span class="author"><strong>Author:</strong> F. Scott Fitzgerald</span>
+                                                        <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                                        <div class="rating">
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                        </div>
+                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                                        <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                                        <ol>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-envelope"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-share-alt"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </li>
+                                        <li class="category-item">
+                                            <figure>
+                                        <img src="~/templete/images/category-filter/home-v1/category-filter-img-02.jpg" alt="New Releaase" />
+                                                <figcaption class="bg-orange">
+                                                    <div class="info-block">
+                                                        <h4>The Great Gatsby</h4>
+                                                        <span class="author"><strong>Author:</strong> F. Scott Fitzgerald</span>
+                                                        <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                                        <div class="rating">
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                        </div>
+                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                                        <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                                        <ol>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-envelope"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-share-alt"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </li>
+                                        <li class="category-item">
+                                            <figure>
+                                                <img src="~/templete/images/category-filter/home-v1/category-filter-img-03.jpg" alt="New Releaase" />
+                                                <figcaption class="bg-orange">
+                                                    <div class="info-block">
+                                                        <h4>The Great Gatsby</h4>
+                                                        <span class="author"><strong>Author:</strong> F. Scott Fitzgerald</span>
+                                                        <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                                        <div class="rating">
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                        </div>
+                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                                        <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                                        <ol>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-envelope"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-share-alt"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </li>
+                                        <li class="category-item">
+                                            <figure>
+                                        <img src="~/templete/images/category-filter/home-v1/category-filter-img-04.jpg" alt="New Releaase" />
+                                                <figcaption class="bg-orange">
+                                                    <div class="info-block">
+                                                        <h4>The Great Gatsby</h4>
+                                                        <span class="author"><strong>Author:</strong> F. Scott Fitzgerald</span>
+                                                        <span class="author"><strong>ISBN:</strong> 9781581573268</span>
+                                                        <div class="rating">
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                            <span>☆</span>
+                                                        </div>
+                                                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Pellentesque dolor turpis, pulvinar varius.</p>
+                                                        <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                                        <ol>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-shopping-cart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-heart"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-envelope"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-share-alt"></i>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    <i class="fa fa-search"></i>
+                                                                </a>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </li>
+                                    </ul>                                    
+                                    <div class="clearfix"></div>
+                                </div>
+                            </section>
+                            <!-- Start: Category Filter -->
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <section class="team staff-picks">
+                            <div class="container">
+                                <div class="center-content">
+                                    <h2 class="section-title">Staff Picks</h2>
+                                    <span class="underline center"></span>
+                                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                                <div class="team-list">
+                                    <div class="team-member">
+                                        <figure>
+                    <img src="~/templete/images/books-media/staff-pick/staff-picks-01.jpg" alt="Staff Pick" />
+                                        </figure>
+                                        <div class="content-block">
+                                            <div class="member-info">
+                                                <div class="member-thumb">
+                            <img src="~/templete/images/books-media/staff-pick/gail.jpg" alt="Katherine">
+                                                </div>
+                                                <div class="member-content">
+                                                    <span class="designation">Downtown & Business</span>
+                                                    <h4>The Collector</h4>
+                                                    <ul class="social">
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-linkedin"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-facebook-f"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here...</p>
+                                                <a class="btn btn-primary" href="#">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-member">
+                                        <figure>
+                    <img src="~/templete/images/books-media/staff-pick/staff-picks-02.jpg" alt="Staff Pick" />
+                                        </figure>
+                                        <div class="content-block">
+                                            <div class="member-info">
+                                                <div class="member-thumb">
+                            <img src="~/templete/images/books-media/staff-pick/katherine.jpg" alt="Katherine">
+                                                </div>
+                                                <div class="member-content">
+                                                    <span class="designation">Katherine, West End</span>
+                                                    <h4>Mongolia</h4>
+                                                    <ul class="social">
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-linkedin"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-facebook-f"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here...</p>
+                                                <a class="btn btn-primary" href="#">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-member">
+                                        <figure>
+                    <img src="~/templete/images/books-media/staff-pick/staff-picks-03.jpg" alt="Staff Pick" />
+                                        </figure>
+                                        <div class="content-block">
+                                            <div class="member-info">
+                                                <div class="member-thumb">
+                                                    <img src="~/templete/images/books-media/staff-pick/chris.jpg" alt="Katherine">
+                                                </div>
+                                                <div class="member-content">
+                                                    <span class="designation">Chris, East Liberty</span>
+                                                    <h4>The Revolution</h4>
+                                                    <ul class="social">
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-linkedin"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-facebook-f"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" target="_blank">
+                                                                <i class="fa fa-skype"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here...</p>
+                                                <a class="btn btn-primary" href="#">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>

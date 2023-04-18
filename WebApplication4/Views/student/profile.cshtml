@@ -1,0 +1,36 @@
+﻿@model student
+@{
+    ViewData["Title"] = "profile";
+}
+<style>
+    body{
+        background-color:black;
+        margin:0;
+        padding:0;
+       
+       
+        
+    }
+    h1{
+         text-align:center;
+         font-size:40px;
+         color:red;
+    }
+    h2{
+        color:darkgray;
+        font-size:25px;
+    }
+    p{
+        color:white;
+    }
+</style>
+<div class="container">
+    <main role="main" class="pb-3">
+<h1>Profile</h1>
+<h2>Welcome @Model.name</h2>
+
+<p>Your name: @Model.name</p>
+<p>Your age :@Model.age</p>
+<p>Your E_mail : @Model.email</p>
+     </main>
+    </div>

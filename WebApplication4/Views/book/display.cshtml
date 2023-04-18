@@ -1,0 +1,37 @@
+﻿@model List<book>
+
+@{
+    ViewData["Title"] = "display";
+   
+}
+<style>
+    h1{
+        color:darkslategrey;
+        text-transform:lowercase;
+    }
+    .row{
+        color:white;
+        margin:10px;
+        padding:20px;
+        background-color:rgba(0,0,0,0.62);
+    }
+</style>
+<div class="container">
+    <main role="main" class="pb-3">
+<h1 style="color:Red;" class=text-center style="padding:5px;"  >Display Books</h1>
+@foreach(book b in Model){
+    <h1 class="text-center" > @b.title </h1>
+    <div class=row>
+        <div class=col-8> @b.bref </div>
+        <div class=col-4><img src="@b.img" width="300px" height="150px" /> </div>
+    </div>
+    <div class=row>
+        <div class=col-4> catalog:- @b.cat.cat_name </div>
+        <div class=col-4>date: @b.date </div>
+        <div class=col-4><a asp-action="details" asp-route-id="@b.id">Read more....</a></div>
+
+    </div>
+    <hr class="text-center" />
+}
+    </main>
+</div>
